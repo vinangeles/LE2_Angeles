@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <title> Contact | Vince Jeru Angeles</title>
+    <style>
+        body {
+            background: #141414;
+            color: rgb(212, 211, 211);
+            font-family: 'Archivo', sans-serif;
+        }
+        header{
+            padding: 5px;
+            text-align: center;
+        }
+        .fbody{
+            line-height: 20px;
+        }
+        p{
+            line-height: 20px;
+        }
+        input, textarea{
+            background: rgba(255, 255, 255, 0.842);
+            border: none;
+            border-bottom: 3px solid rgb(94, 94, 94);
+            font-family: 'Archivo', sans-serif;
+            font-style: bold;
+            color: black;
+        }
+        input:focus, textarea:focus{
+            background: rgb(255, 255, 255);
+        }
+        textarea{
+            width: 250px;
+            height: 150px;
+            padding: 2px 2px;
+            resize: none;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover{
+            background:rgb(246, 255, 163);
+        }
+        a {
+            color: pink;
+            text-decoration: none;
+        }
+        a:hover{
+            color:rgb(29, 195, 236);
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Contact</h1>
+    </header>
+    <hr>
+    <div class="fbody">
+        <h3>Disclaimer: </h3>
+        <p>I am usually busy with schoolwork (and definitely not playing Apex Legends) so please have patience when waiting for a reply. I usually check on these every two weeks so please expect a reply to your email around that timetable.</p>
+
+        <form>
+        Full Name: <input id="name" type="text" placeholder="Your Name" /><br/>
+        Email: <input id="email" type="email" placeholder="example@email.com"/> <br/>
+        Message: </br>
+        <!--<input id="message" type="text" />-->
+        <textarea name="message" placeholder="Write something"></textarea> <br/>
+        <input type="submit" />
+        <input type="reset" />
+        </form>
+        <br/>
+        <a href="LE2_Angeles.html">Back to Home</a>
+    </div>
+    
+</body>
